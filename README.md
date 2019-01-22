@@ -19,6 +19,9 @@ Open3D
 
 #### Results
 
+![alt text](https://raw.githubusercontent.com/fjordyo0707/CGFinal-ImmerseIntheCanvas/master/img/1.png)
+![alt text](https://raw.githubusercontent.com/fjordyo0707/CGFinal-ImmerseIntheCanvas/master/img/2.png)
+
 
 
 
