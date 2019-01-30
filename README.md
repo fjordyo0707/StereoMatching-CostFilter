@@ -8,9 +8,14 @@
     opencv-python
     Open3D
 #### Run
-Run our sample
+Run our Fast Cost-Volumne Filtering
 
     python main.py
+Run our oil painting on left image (it's easy you can do for yourself. :) )
+
+Run Recontruction
+
+    python reconturction.py
 
 
 #### Method
