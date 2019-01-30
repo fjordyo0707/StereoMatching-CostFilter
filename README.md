@@ -1,16 +1,17 @@
 # Immerse In the Canvas
 
 #### Contributor
-范晟祐
-黃琬庭
-李俊賢
+范晟祐、黃琬庭、李俊賢
 
 #### Dependencies
-python3
+    python3
+    opencv-python
+    Open3D
+#### Run
+Run our sample
 
-opencv-python
+    python main.py
 
-Open3D
 
 #### Method
 
