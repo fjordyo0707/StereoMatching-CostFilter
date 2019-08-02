@@ -1,7 +1,7 @@
-# Immerse In the Canvas
+# **StereoMatching-CostFilter**
 
 #### Contributor
-范晟祐、黃琬庭、李俊賢
+Cheng-Yu Fan
 
 #### Dependencies
     python3
@@ -10,19 +10,18 @@
 #### Run
 Run our Fast Cost-Volumne Filtering
 
-    python main.py
-Run our oil painting on left image (it's easy you can do for yourself. :) )
+```bash
+python CostFilter.py -l <path to left image> -r <path to right image> -o <path to disparity image>
+```
+View the result
 
-Run Recontruction
+    python reconturction.py  -l <path to left image> -d  <path to disparity> -p <path to .ply file>
+**Demo**
 
-    python reconturction.py
-
-
-#### Method
-
-1. Painterly Rendering with Curved Brush Strokes of Multiple Size
-
-2. Fast Cost-Volume Filtering for Visual Correspondence and Beyond
+```bash
+python CostFilter.py -l ./testdata/tsukuba/im3.png -r ./testdata/tsukuba/im4.png -o ./tsukuba.png
+python recontruction.py  -l ./testdata/tsukuba/im3.png -d  tsukuba.png -p tsukuba.ply
+```
 
 
 #### Results
@@ -31,5 +30,9 @@ Run Recontruction
 ![alt text](https://raw.githubusercontent.com/fjordyo0707/CGFinal-ImmerseIntheCanvas/master/img/2.png)
 
 
+#### Reference
+Fast Cost-Volume Filtering for Visual Correspondence and Beyond, Christoph Rhemann, Asmaa Hosni, Michael Bleyer, Carsten Rother, Margrit Gelautz, CVPR 2011
 
+#### Citation
+If you use our code please cite the paper [C. Rhemann, A. Hosni, M. Bleyer, C. Rother, M. Gelautz, Fast Cost-Volume Filtering for Visual Correspondence and Beyond, CVPR11]
 
