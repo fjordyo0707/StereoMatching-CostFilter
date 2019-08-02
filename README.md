@@ -6,7 +6,7 @@ Cheng-Yu Fan
 #### Dependencies
     python3
     opencv-python
-    Open3D
+    (Optional) Open3D
 #### Run
 Run our Fast Cost-Volumne Filtering
 
